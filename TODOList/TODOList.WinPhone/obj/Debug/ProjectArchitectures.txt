@@ -1,0 +1,2 @@
+C:\Xamarin\MVPracitices\Check_Network_Connection\TODOList\TODOList\TODOList.WinPhone\TODOList.WinPhone.csproj;neutral
+C:\Xamarin\MVPracitices\Check_Network_Connection\TODOList\TODOList\TODOList\TODOList.csproj;neutral

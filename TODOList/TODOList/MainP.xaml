@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+				  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+				  xmlns:local="clr-namespace:TODOList.Views;assembly=TODOList"
+				  x:Class="TODOList.MainP"
+                  Icon="icon.png">
+    <MasterDetailPage.ToolbarItems>
+        <ToolbarItem Name="Menu1" Icon="search3.png" Text="Luis" Order="Primary" Priority="0" />
+    </MasterDetailPage.ToolbarItems>
+    
+    <MasterDetailPage.Master>
+        <local:MasterPage x:Name="masterPage"  BackgroundColor="Black"/>
+
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:ContactsPage />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
