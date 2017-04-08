@@ -3,13 +3,64 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TODOList.Views.MasterPage"
              Icon="hamburger.png"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              Title = "Test">
-    <!--<ContentPage.ToolbarItems>
-        <ToolbarItem Text="Search" Icon="icon.png" Order="Primary"/>
-    </ContentPage.ToolbarItems>-->
-    <StackLayout>
-        <Button Text="Detail1" />
-        <Button Text="Detail2" />
-        <Button Text="Detail3" />
+    
+    <StackLayout Orientation="Vertical">
+      <controls:CircleImage Source="man_fear1.jpg" Aspect="Fill" Margin="-70,0,0,0">
+      <controls:CircleImage.WidthRequest>
+        <OnPlatform x:TypeArguments="x:Double"
+          iOS="55"
+          Android="85"
+          WinPhone="75"/>
+       </controls:CircleImage.WidthRequest>
+    <controls:CircleImage.HeightRequest>
+        <OnPlatform x:TypeArguments="x:Double"
+          iOS="55"
+          Android="85"
+          WinPhone="75"/>
+       </controls:CircleImage.HeightRequest>
+    </controls:CircleImage>
+      <StackLayout Orientation="Horizontal">
+          <Label Text="Local Account" TextColor="White" FontSize="20"></Label>
+          <Button Image="icon.png" WidthRequest = "40" HeightRequest = "30" Margin="140,0,0,0"/>
+      </StackLayout>
+      <ListView x:Name="lvGroup" RowHeight="35">
+        <ListView.ItemTemplate>
+          <DataTemplate >
+            <ImageCell Text="{Binding Name}" ImageSource="{Binding Icon}" TextColor="White"/>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    <BoxView Color="#7F7F7F" WidthRequest="200" HeightRequest ="2"  ></BoxView>
+     <ListView x:Name="lvSettings" RowHeight="35">
+        <ListView.Header>
+          <StackLayout Orientation="Horizontal">
+              <Label Text="Options"
+              TextColor="White"
+              BackgroundColor="Black" />
+          </StackLayout>
+      </ListView.Header>
+       <ListView.ItemTemplate>
+         <DataTemplate>
+           <ImageCell Text="{Binding Name}" ImageSource="{Binding Icon}" TextColor="White"/>
+         </DataTemplate>
+       </ListView.ItemTemplate>
+      </ListView>
+      <BoxView Color="#7F7F7F" WidthRequest="200" HeightRequest ="2"  ></BoxView>
+    <ListView x:Name="lvContact" RowHeight="35">
+        <ListView.Header>
+          <StackLayout Orientation="Horizontal">
+              <Label Text="Othres"
+              TextColor="White"
+              BackgroundColor="Black" />
+          </StackLayout>
+      </ListView.Header>
+       <ListView.ItemTemplate>
+         <DataTemplate>
+           <ImageCell Text="{Binding Name}" ImageSource="{Binding Icon}" TextColor="White"/>
+         </DataTemplate>
+       </ListView.ItemTemplate>
+      </ListView>
     </StackLayout>
 </ContentPage>

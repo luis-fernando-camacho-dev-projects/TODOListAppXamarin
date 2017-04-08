@@ -2,6 +2,10 @@ TODOList.Droid.MainActivity, TODOList.Droid;md58feb5a16ce9910f177345a5ba09e0fce.
 TODOList.Droid.MainActivity, TODOList.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58feb5a16ce9910f177345a5ba09e0fce.MainActivity
 TODOList.Droid.MainActivity;md58feb5a16ce9910f177345a5ba09e0fce.MainActivity
 todolist.droid.MainActivity;md58feb5a16ce9910f177345a5ba09e0fce.MainActivity
+ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer, ImageCircle.Forms.Plugin.Android;md52c2a61d8deb1f49fcf6497b6269d54e8.ImageCircleRenderer
+ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer, ImageCircle.Forms.Plugin.Android, Version=1.6.1.0, Culture=neutral, PublicKeyToken=null;md52c2a61d8deb1f49fcf6497b6269d54e8.ImageCircleRenderer
+ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer;md52c2a61d8deb1f49fcf6497b6269d54e8.ImageCircleRenderer
+imagecircle.forms.plugin.droid.ImageCircleRenderer;md52c2a61d8deb1f49fcf6497b6269d54e8.ImageCircleRenderer
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
