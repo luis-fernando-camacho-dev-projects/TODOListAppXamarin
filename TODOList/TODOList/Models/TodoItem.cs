@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TODOList.Models
 {
-    public class Task
+    public class TodoItem
     {
         public DateTime Date { get; set; }
         public string Name { get; set; }

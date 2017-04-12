@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TODOList.Views.ListTodoItemsPage"
+             Title="todo list items">
+    <StackLayout Orientation="Vertical" BackgroundColor="Black">
+        <ListView x:Name="lvTodoItems" BackgroundColor="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell  Text="{Binding Name}" TextColor="White"></TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Image  x:Name="img" Source="icon2.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="270,0,0,0"/>
+    </StackLayout>
+</ContentPage>

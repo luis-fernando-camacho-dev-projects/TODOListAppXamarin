@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace TODOList.Views
 {
-    public partial class ContactsPage : ContentPage
+    public partial class TodayTodoItems : ContentPage
     {
-        public ContactsPage()
+        public TodayTodoItems()
         {
             InitializeComponent();
         }

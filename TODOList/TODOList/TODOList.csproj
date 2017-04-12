@@ -40,12 +40,16 @@
       <DependentUpon>MainP.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\Task.cs" />
+    <Compile Include="Models\TodoItem.cs" />
     <Compile Include="ViewModel\CategoryVM.cs" />
-    <Compile Include="Views\ContactsPage.xaml.cs">
-      <DependentUpon>ContactsPage.xaml</DependentUpon>
+    <Compile Include="ViewModel\TaskVM.cs" />
+    <Compile Include="Views\TodayTodoItems.xaml.cs">
+      <DependentUpon>TodayTodoItems.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\ListTodoItemsPage.xaml.cs">
+      <DependentUpon>ListTodoItemsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MasterPage.xaml.cs">
       <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
@@ -85,13 +89,19 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\ContactsPage.xaml">
+    <EmbeddedResource Include="Views\TodayTodoItems.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainP.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\ListTodoItemsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

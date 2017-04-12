@@ -49,9 +49,6 @@ namespace TODOList.ViewModel
             Others.Add(new Category() { Name = "Settings", Description = "family description", Icon = "hamburger.png" });
             Others.Add(new Category() { Name = "Contact Developer", Description = "Work description", Icon = "icon.png" });
             Others.Add(new Category() { Name = "Rate and Share", Description = "Skill Study description", Icon = "icon.png" });
-
-
-
         }
     }
 }

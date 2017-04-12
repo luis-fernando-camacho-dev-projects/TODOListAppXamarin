@@ -11,13 +11,13 @@
 namespace TODOList.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Xamarin\\MVPracitices\\Check_Network_Connection\\TODOList\\TODOList\\TODOList\\Views" +
-        "\\ContactsPage.xaml")]
-    public partial class ContactsPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Xamarin\\VSTS.DemoAzureOfflineSync\\TODOListAppXamarin\\TODOList\\TODOList\\Views\\T" +
+        "odayTodoItems.xaml")]
+    public partial class TodayTodoItems : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ContactsPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(TodayTodoItems));
         }
     }
 }

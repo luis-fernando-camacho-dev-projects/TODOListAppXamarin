@@ -10,19 +10,16 @@ namespace TODOList.Views
 {
     public partial class MasterPage : ContentPage
     {
-        public string Image { get; set; }
-
+        public ListView ListViewCategories { get { return lvGroup; } }
         public MasterPage()
         {
-
-           
-
+            
             InitializeComponent();
-            Image = "https://upload.wikimedia.org/wikipedia/commons/5/55/Tamarin_portrait.JPG";
             CategoryVM categories = new CategoryVM();
             lvGroup.ItemsSource = categories.Categories;
             lvSettings.ItemsSource = categories.Settings;
             lvContact.ItemsSource = categories.Others;
+            
         }
     }
 }

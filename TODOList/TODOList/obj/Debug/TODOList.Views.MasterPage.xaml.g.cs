@@ -11,8 +11,8 @@
 namespace TODOList.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Xamarin\\Source\\Repos\\TODOListAppXamarin\\TODOList\\TODOList\\Views\\MasterPa" +
-        "ge.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Xamarin\\VSTS.DemoAzureOfflineSync\\TODOListAppXamarin\\TODOList\\TODOList\\Views\\M" +
+        "asterPage.xaml")]
     public partial class MasterPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
