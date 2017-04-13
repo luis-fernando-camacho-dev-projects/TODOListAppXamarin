@@ -24,17 +24,20 @@ namespace TODOList.Views
             var tapImage = new TapGestureRecognizer();
             tapImage.Tapped += tapImage_Tapped;
             img.GestureRecognizers.Add(tapImage);
+        }
 
+        private async void  tapImage_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new TODOItemEdit(null, Title));
 
         }
 
-        
-
-        void tapImage_Tapped(object sender, EventArgs e)
+        async void todoItem_Clicked(object sender, EventArgs e)
         {
-            // handle the tap  
-            img.Source = "icon.png";
-            DisplayAlert("Alert", "This is an image button", "OK");
+            Button b = (Button)sender;
+            b.Image = "checked2.png";
+            await Task.Delay(1000);
+            TaskViewModel.RemoveTask(b.Text);
         }
 
         private void img_Unfocused(object sender, FocusEventArgs e)
@@ -46,6 +49,12 @@ namespace TODOList.Views
         {
             DisplayAlert("Alert", "This is an image button", "OK");
 
+        }
+
+        private async void lvTodoItems_ItemTapped(object sender, SelectedItemChangedEventArgs e)
+        {
+            TodoItem item = (TodoItem) e.SelectedItem;
+            await Navigation.PushAsync(new TODOItemEdit(item, Title));
         }
     }
 }

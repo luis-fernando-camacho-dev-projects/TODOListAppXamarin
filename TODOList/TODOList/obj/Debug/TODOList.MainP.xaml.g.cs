@@ -11,8 +11,7 @@
 namespace TODOList {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Xamarin\\VSTS.DemoAzureOfflineSync\\TODOListAppXamarin\\TODOList\\TODOList\\MainP.x" +
-        "aml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Xamarin\\Source\\Repos\\TODOListAppXamarin\\TODOList\\TODOList\\MainP.xaml")]
     public partial class MainP : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

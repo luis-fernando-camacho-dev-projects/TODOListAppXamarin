@@ -9,6 +9,7 @@ namespace TODOList.Models
 {
     public class TodoItem
     {
+        public int Id;
         public DateTime Date { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }

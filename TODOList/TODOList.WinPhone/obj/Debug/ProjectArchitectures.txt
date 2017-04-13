@@ -1,2 +1,0 @@
-E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList.WinPhone\TODOList.WinPhone.csproj;neutral
-E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\TODOList.csproj;neutral
