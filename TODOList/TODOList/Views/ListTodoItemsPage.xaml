@@ -15,7 +15,7 @@
                     <ViewCell>
                         <StackLayout Orientation="Vertical" Padding="0,0,0,0">
                             <StackLayout Orientation="Horizontal" >
-                                <Button Image="unchecked.png" Clicked="todoItem_Clicked" Text="{Binding Name}"  WidthRequest="40" HeightRequest="40" BackgroundColor="Black" ></Button>
+                                <Button Image="unchecked.png" Clicked="NewTODOItem_Clicked" Text="{Binding Name}"  WidthRequest="40" HeightRequest="40" BackgroundColor="Black" ></Button>
                                 <Label Text="{Binding Name}" TextColor="White"  HorizontalOptions="Center" VerticalOptions="Center"></Label>
                             </StackLayout>
                             <Label Text="{Binding Description}" TextColor="White" FontSize="Small" Margin="20,-10,0,0"/>

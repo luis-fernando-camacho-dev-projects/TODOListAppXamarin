@@ -40,9 +40,6 @@ E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\De
 E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.pdb
 E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.Views.TodayTodoItems.xaml.g.cs
 E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.Views.ListTodoItemsPage.xaml.g.cs
-E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.csprojResolveAssemblyReference.cache
-E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.dll.mdb
-E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\bin\Debug\TODOList.dll.mdb
 C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\bin\Debug\TODOList.dll
 C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\bin\Debug\TODOList.pdb
 C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
@@ -65,3 +62,6 @@ C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TOD
 C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.Views.TODOItemEdit.xaml.g.cs
 C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.dll.mdb
 C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\bin\Debug\TODOList.dll.mdb
+E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.Views.TODOItemEdit.xaml.g.cs
+E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.dll.mdb
+E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\bin\Debug\TODOList.dll.mdb

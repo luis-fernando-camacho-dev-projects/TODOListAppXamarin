@@ -11,8 +11,8 @@
 namespace TODOList.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Xamarin\\Source\\Repos\\TODOListAppXamarin\\TODOList\\TODOList\\Views\\TODOItem" +
-        "Edit.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Xamarin\\VSTS.DemoAzureOfflineSync\\TODOListAppXamarin\\TODOList\\TODOList\\Views\\T" +
+        "ODOItemEdit.xaml")]
     public partial class TODOItemEdit : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

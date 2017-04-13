@@ -14,5 +14,17 @@ namespace TODOList.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public Category Category { get; set; }
+        public State StateItem { get; set;}
+        public TodoItem()
+        {
+            StateItem = State.InProgress;
+        }
+    }
+
+    public enum State
+    {
+        Done,
+        InProgress,
+        Deleted
     }
 }

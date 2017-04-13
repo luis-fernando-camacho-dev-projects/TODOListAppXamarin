@@ -14,11 +14,12 @@ namespace TODOList.Views
     public partial class ListTodoItemsPage : ContentPage
     {
         public TaskVM TaskViewModel { get; set; }
-
+        private Category category;
         public ListTodoItemsPage(Category category)
         {
             InitializeComponent();
             Title = category.Name;
+            this.category = category;
             TaskViewModel = new TaskVM(category);
             lvTodoItems.ItemsSource = TaskViewModel.TodoItems;
             var tapImage = new TapGestureRecognizer();
@@ -28,11 +29,11 @@ namespace TODOList.Views
 
         private async void  tapImage_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TODOItemEdit(null, Title));
+            await Navigation.PushAsync(new TODOItemEdit(category, null, Title));
 
         }
 
-        async void todoItem_Clicked(object sender, EventArgs e)
+        async void NewTODOItem_Clicked(object sender, EventArgs e)
         {
             Button b = (Button)sender;
             b.Image = "checked2.png";
@@ -40,21 +41,14 @@ namespace TODOList.Views
             TaskViewModel.RemoveTask(b.Text);
         }
 
-        private void img_Unfocused(object sender, FocusEventArgs e)
+        
+
+        private async void lvTodoItems_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            DisplayAlert("Alert", "This is an image button", "OK");
+            TodoItem item = (TodoItem)e.Item;
+            await Navigation.PushAsync(new TODOItemEdit(category, item, Title));
         }
 
-        private void img_Focused(object sender, FocusEventArgs e)
-        {
-            DisplayAlert("Alert", "This is an image button", "OK");
-
-        }
-
-        private async void lvTodoItems_ItemTapped(object sender, SelectedItemChangedEventArgs e)
-        {
-            TodoItem item = (TodoItem) e.SelectedItem;
-            await Navigation.PushAsync(new TODOItemEdit(item, Title));
-        }
+    
     }
 }
