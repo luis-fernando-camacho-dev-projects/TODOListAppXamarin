@@ -19,4 +19,16 @@ namespace TODOList.Models
             TodoItems = new ObservableCollection<TodoItem>();
         }
     }
+
+    public class GroupItemTodo : ObservableCollection<TodoItem>
+    {
+        public string CategoryTitle { get; set; }
+        public string CategoryDescription { get; set; }
+
+        public GroupItemTodo(string title, string description)
+        {
+            CategoryTitle = title;
+            CategoryDescription = description;
+        }
+    }
 }

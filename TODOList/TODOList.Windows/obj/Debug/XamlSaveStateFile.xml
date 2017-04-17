@@ -1,8 +1,9 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
+    <LocalAssembly PathName="e:\xamarin\vsts.demoazureofflinesync\todolistappxamarin\todolist\todolist.windows\obj\debug\intermediatexaml\todolist.windows.exe" HashGuid="3c91b365-0fe7-a134-494d-ebd91148c740" />
     <ReferenceAssembly PathName="e:\xamarin\vsts.demoazureofflinesync\todolistappxamarin\packages\xam.plugins.forms.imagecircle.1.6.1\lib\win81\imagecircle.forms.plugin.abstractions.dll" HashGuid="28ac2fb9-7479-5917-8c17-c740eb4f0887" />
     <ReferenceAssembly PathName="e:\xamarin\vsts.demoazureofflinesync\todolistappxamarin\packages\xam.plugins.forms.imagecircle.1.6.1\lib\win81\imagecircle.forms.plugin.windowsstore.dll" HashGuid="dd40e1e6-5a3a-09a3-4326-909c0fa342cd" />
-    <ReferenceAssembly PathName="e:\xamarin\vsts.demoazureofflinesync\todolistappxamarin\todolist\todolist\bin\debug\todolist.dll" HashGuid="3d3a8ec5-9190-db57-ff50-f5458c19be2f" />
+    <ReferenceAssembly PathName="e:\xamarin\vsts.demoazureofflinesync\todolistappxamarin\todolist\todolist\bin\debug\todolist.dll" HashGuid="5de1e7f5-34db-6933-aa9d-06f0f69d0101" />
     <ReferenceAssembly PathName="e:\xamarin\vsts.demoazureofflinesync\todolistappxamarin\packages\xamarin.forms.2.3.4.224\lib\win81\xamarin.forms.core.dll" HashGuid="819b85c3-f6b1-e32c-2830-7206104fccc4" />
     <ReferenceAssembly PathName="e:\xamarin\vsts.demoazureofflinesync\todolistappxamarin\packages\xamarin.forms.2.3.4.224\lib\win81\xamarin.forms.platform.dll" HashGuid="6b938cd4-44c0-2618-7eb6-4caa3f482076" />
     <ReferenceAssembly PathName="e:\xamarin\vsts.demoazureofflinesync\todolistappxamarin\packages\xamarin.forms.2.3.4.224\lib\win81\xamarin.forms.platform.winrt.dll" HashGuid="a861a807-c05d-0f84-2d21-93f0c7e733ae" />

@@ -11,15 +11,13 @@ namespace TODOList.Views
     public partial class MasterPage : ContentPage
     {
         public ListView ListViewCategories { get { return lvGroup; } }
+
         public MasterPage()
         {
-            
             InitializeComponent();
-            CategoryVM categories = new CategoryVM();
-            lvGroup.ItemsSource = categories.Categories;
-            lvSettings.ItemsSource = categories.Settings;
-            lvContact.ItemsSource = categories.Others;
-            
+            lvGroup.ItemsSource = CategoryVM.Instance.Categories;
+            lvSettings.ItemsSource = SettingVM.Instance.Settings;
+            lvContact.ItemsSource = SettingVM.Instance.Others;
         }
     }
 }

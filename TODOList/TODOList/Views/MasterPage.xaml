@@ -7,29 +7,34 @@
              Title = "Test">
     
     <StackLayout Orientation="Vertical">
-      <controls:CircleImage Source="man_fear1.jpg" Aspect="Fill" Margin="-70,0,0,0">
+        <controls:CircleImage Source="man1.jpg"  Aspect="AspectFit" Margin="0,0,0,0">
       <controls:CircleImage.WidthRequest>
         <OnPlatform x:TypeArguments="x:Double"
           iOS="55"
-          Android="85"
+          Android="90"
           WinPhone="75"/>
        </controls:CircleImage.WidthRequest>
     <controls:CircleImage.HeightRequest>
         <OnPlatform x:TypeArguments="x:Double"
           iOS="55"
-          Android="85"
+          Android="90"
           WinPhone="75"/>
        </controls:CircleImage.HeightRequest>
     </controls:CircleImage>
       <StackLayout Orientation="Horizontal">
-          <Label Text="Local Account" TextColor="White" FontSize="20"></Label>
-          <Button Image="icon.png" WidthRequest = "40" HeightRequest = "30" Margin="140,0,0,0"/>
+            <Label Text="Local Account" TextColor="White" FontSize="20" FontAttributes="Bold"></Label>
+            <Button Image="account_setting.png" WidthRequest = "40" HeightRequest = "40" Margin="140,0,0,0"/>
       </StackLayout>
       <ListView x:Name="lvGroup" RowHeight="35">
         <ListView.ItemTemplate>
           <DataTemplate >
-            <ImageCell Text="{Binding Name}" ImageSource="{Binding Icon}" TextColor="White"/>
-          </DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" >
+                            <Image Source="{Binding Icon}" BackgroundColor="Black"/>
+                            <Label Text="{Binding Name}" TextColor="White" FontSize="Small" FontAttributes="Italic" Margin="0,5,0,0" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
     <BoxView Color="#7F7F7F" WidthRequest="200" HeightRequest ="2"  ></BoxView>
@@ -38,12 +43,19 @@
           <StackLayout Orientation="Horizontal">
               <Label Text="Options"
               TextColor="White"
-              BackgroundColor="Black" />
+              BackgroundColor="Black" 
+              FontAttributes="Bold"/>
           </StackLayout>
       </ListView.Header>
        <ListView.ItemTemplate>
          <DataTemplate>
-           <ImageCell Text="{Binding Name}" ImageSource="{Binding Icon}" TextColor="White"/>
+            <ViewCell>
+                <StackLayout Orientation="Horizontal" >
+                    <Image Source="{Binding Icon}" BackgroundColor="Black"/>
+                    <Label Text="{Binding Name}" TextColor="White" FontSize="Small" FontAttributes="Italic" Margin="0,5,0,0" />
+                </StackLayout>
+            </ViewCell>
+                    
          </DataTemplate>
        </ListView.ItemTemplate>
       </ListView>
@@ -51,15 +63,21 @@
     <ListView x:Name="lvContact" RowHeight="35">
         <ListView.Header>
           <StackLayout Orientation="Horizontal">
-              <Label Text="Othres"
+              <Label Text="Others"
               TextColor="White"
-              BackgroundColor="Black" />
+              BackgroundColor="Black" 
+              FontAttributes="Bold"/>
           </StackLayout>
       </ListView.Header>
        <ListView.ItemTemplate>
          <DataTemplate>
-           <ImageCell Text="{Binding Name}" ImageSource="{Binding Icon}" TextColor="White"/>
-         </DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" >
+                            <Image Source="{Binding Icon}" BackgroundColor="Black"/>
+                            <Label Text="{Binding Name}" TextColor="White" FontSize="Small" FontAttributes="Italic" Margin="0,5,0,0" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
        </ListView.ItemTemplate>
       </ListView>
     </StackLayout>

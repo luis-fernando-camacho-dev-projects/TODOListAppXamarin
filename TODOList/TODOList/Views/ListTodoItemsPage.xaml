@@ -9,13 +9,13 @@
         <ToolbarItem Name="MenuItem2" Text="Search" Order="Secondary"  />
     </ContentPage.ToolbarItems>
     <StackLayout Orientation="Vertical" BackgroundColor="Black">
-        <ListView x:Name="lvTodoItems" BackgroundColor="Black" SeparatorColor="White" SeparatorVisibility="Default" RowHeight="60" ItemTapped="lvTodoItems_ItemTapped"> 
+        <ListView x:Name="lvTodoItems" BackgroundColor="Black" SeparatorColor="White" SeparatorVisibility="Default" RowHeight="60" ItemTapped="SelectTodoItem_Tapped"> 
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Vertical" Padding="0,0,0,0">
                             <StackLayout Orientation="Horizontal" >
-                                <Button Image="unchecked.png" Clicked="NewTODOItem_Clicked" Text="{Binding Name}"  WidthRequest="40" HeightRequest="40" BackgroundColor="Black" ></Button>
+                                <Button Image="unchecked.png" Clicked="Done_Clicked" Text="{Binding Name}"  WidthRequest="40" HeightRequest="40" BackgroundColor="Black" ></Button>
                                 <Label Text="{Binding Name}" TextColor="White"  HorizontalOptions="Center" VerticalOptions="Center"></Label>
                             </StackLayout>
                             <Label Text="{Binding Description}" TextColor="White" FontSize="Small" Margin="20,-10,0,0"/>

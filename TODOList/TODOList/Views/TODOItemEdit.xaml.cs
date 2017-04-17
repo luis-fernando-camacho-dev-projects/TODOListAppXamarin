@@ -24,6 +24,12 @@ namespace TODOList.Views
                 Title = categoryTitle;
             }
             btnCheck.Clicked += BtnCheck_Clicked;
+            this.Appearing += TODOItemEdit_Appearing;
+        }
+
+        private void TODOItemEdit_Appearing(object sender, EventArgs e)
+        {
+            txtTitle.Focus();
         }
 
         private void BtnCheck_Clicked(object sender, System.EventArgs e)
@@ -33,11 +39,8 @@ namespace TODOList.Views
             Navigation.PopAsync();
         }
 
-        private async void MISave_Clicked(object sender, System.EventArgs e)
+        private async void TodoItemSave_Clicked(object sender, System.EventArgs e)
         {
-
-            
-
             if (currentTodoItem != null)
             {
                 TodoItem newTodoItem = new TodoItem();

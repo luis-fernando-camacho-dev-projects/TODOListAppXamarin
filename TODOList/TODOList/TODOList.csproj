@@ -40,8 +40,11 @@
       <DependentUpon>MainP.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Setting.cs" />
     <Compile Include="Models\TodoItem.cs" />
     <Compile Include="ViewModel\CategoryVM.cs" />
+    <Compile Include="ViewModel\GroupItemTodoVM.cs" />
+    <Compile Include="ViewModel\SettingVM.cs" />
     <Compile Include="ViewModel\TaskVM.cs" />
     <Compile Include="Views\TodayTodoItems.xaml.cs">
       <DependentUpon>TodayTodoItems.xaml</DependentUpon>

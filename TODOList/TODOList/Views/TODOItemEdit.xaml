@@ -4,7 +4,7 @@
              x:Class="TODOList.Views.TODOItemEdit"
              Title="New Item">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Name="miSave" Order="Primary" Icon="checked2.png" Priority="1" Clicked="MISave_Clicked" />
+        <ToolbarItem Name="miSave" Order="Primary" Icon="checked2.png" Priority="1" Clicked="TodoItemSave_Clicked" />
         <ToolbarItem Name="miDelete" Order="Primary" Icon="trash2.png" Priority="1" Clicked="MIDelete_Clicked" />
         <ToolbarItem Name="miMove" Order="Primary" Icon="icon.png" Priority="1" />
     </ContentPage.ToolbarItems>
@@ -22,9 +22,9 @@
         </StackLayout>
         <StackLayout Orientation="Vertical">
             <Label Text="Title" TextColor="White"/>
-            <Entry x:Name="txtTitle" TextColor="White" ></Entry>
-            <Label Text="Description" FontSize="Medium" TextColor="White"/>
-            <Editor x:Name="txtDescription" HeightRequest="50" TextColor="White"/>
+            <Entry x:Name="txtTitle" TextColor="White" Placeholder="enter title todo item" ></Entry>
+            <Label Text="Description" FontSize="Medium" TextColor="White" />
+            <Editor x:Name="txtDescription" HeightRequest="50" TextColor="White"  />
         </StackLayout>
     </StackLayout>
     

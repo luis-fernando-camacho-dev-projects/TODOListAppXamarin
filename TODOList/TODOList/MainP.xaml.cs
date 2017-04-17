@@ -20,9 +20,14 @@ namespace TODOList
         private void LvContant_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as Category;
-            if (item != null)
+            if (item != null && !item.Name.ToLower().Equals("all"))
             {
                 Detail = new NavigationPage(new ListTodoItemsPage(item));
+                IsPresented = false;
+            }
+            else
+            {
+                Detail = new NavigationPage(new TodayTodoItems());
                 IsPresented = false;
             }
         }

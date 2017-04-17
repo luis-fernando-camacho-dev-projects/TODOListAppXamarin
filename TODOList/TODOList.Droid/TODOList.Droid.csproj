@@ -169,6 +169,20 @@
     <AndroidResource Include="Resources\drawable\checked2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\hamburgerfinal.png" />
+    <AndroidResource Include="Resources\drawable\hamburger3.png" />
+    <AndroidResource Include="Resources\drawable\pencil.png" />
+    <AndroidResource Include="Resources\drawable\folder.png" />
+    <AndroidResource Include="Resources\drawable\mail.png" />
+    <AndroidResource Include="Resources\drawable\rate.png" />
+    <AndroidResource Include="Resources\drawable\setting.png" />
+    <AndroidResource Include="Resources\drawable\account.png" />
+    <AndroidResource Include="Resources\drawable\accountButton.png" />
+    <AndroidResource Include="Resources\drawable\account_and_control.png" />
+    <AndroidResource Include="Resources\drawable\Personal.ico" />
+    <AndroidResource Include="Resources\drawable\Person.jpg" />
+    <AndroidResource Include="Resources\drawable\man1.jpg" />
+    <AndroidResource Include="Resources\drawable\account_setting.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

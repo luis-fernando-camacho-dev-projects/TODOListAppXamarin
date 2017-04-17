@@ -63,5 +63,6 @@ C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TOD
 C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.dll.mdb
 C:\Users\Xamarin\Source\Repos\TODOListAppXamarin\TODOList\TODOList\bin\Debug\TODOList.dll.mdb
 E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.Views.TODOItemEdit.xaml.g.cs
+E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.csprojResolveAssemblyReference.cache
 E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\obj\Debug\TODOList.dll.mdb
 E:\Xamarin\VSTS.DemoAzureOfflineSync\TODOListAppXamarin\TODOList\TODOList\bin\Debug\TODOList.dll.mdb
